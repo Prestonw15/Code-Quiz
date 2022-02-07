@@ -26,3 +26,25 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 // 15 seconds for each question
+var secondsleft = 76;
+var holdInterval = 0;
+var penalty = 10;
+var ulCreate = document.createElement("ul")
+
+// Timer for Button
+timer.addEventListener("click", function () {
+    if (holdInterval === 0) {
+        holdInterval = setInterval(function (){
+            secondsleft--;
+            currentTime.textContent = "Time: " + secondsleft;
+
+            if (secondsleft <= 0) {
+                clearInterval(holdInterval);
+                allDone();
+                currentTime.textContent = "Time's Up!";
+            }
+    
+        }, 1000);
+    }
+    render(questionIndex);
+});
