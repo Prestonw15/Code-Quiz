@@ -2,7 +2,7 @@ var highScore = document.querySelector("#highScore");
 
 var clear = document.querySelector("#clear");
 
-var goBack = document.querySelector("#Home");
+var Home = document.querySelector("#Home");
 clear.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
@@ -21,6 +21,6 @@ if (allScores !== null) {
 
     }
 }
-goBack.addEventListener("click", function () {
+Home.addEventListener("click", function () {
     window.location.replace("./index.html");
 });
