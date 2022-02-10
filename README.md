@@ -1,6 +1,6 @@
 # 04 Web APIs: Code Quiz
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. For this challenge, you will build a timed code quiz that's made up of multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+In this assignment I created a quiz to allow tracking of right and wrong answers as well as test your knowledge of javascript.
 
 ## User Story
 
@@ -28,7 +28,8 @@ THEN I can save my initials and score
 
 The following animation demonstrates the application functionality:
 
-![Demonstration of the Coding Quiz Challenge.](./Assets/04-web-apis-homework-demo.gif)
+![2022-02-09 (3)](https://user-images.githubusercontent.com/90294449/153328147-dde03cf5-8834-4a9d-abe1-94aa4f974e34.png)
+
 
 ### Review
 
