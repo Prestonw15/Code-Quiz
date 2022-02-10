@@ -38,6 +38,7 @@
 #clear {
     background-color: #000000;
     position: relative;
+    float: right;
     padding: 10px;
     font-size: 20px;
     color: white;
@@ -45,6 +46,7 @@
     right: 5%;
     text-align: center;
 }
+
 
 button {
     border-radius: 8px;
@@ -113,7 +115,7 @@ li {
     #clear {
 
         position: relative;
-        right: 5%;
+        right: 10%;
     }
 
     @media screen and (max-width: 640px) {
